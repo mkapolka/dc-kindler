@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for file in *.png; do
+   size=`identify -format "%w %h" $file`;   
+   arr=( $size );
+
+   if [ "${arr[0]}" -gt "${arr[1]}" ]; then
+      mogrify -rotate -90 $file;
+      echo "Rotating " $file
+   fi
+done;

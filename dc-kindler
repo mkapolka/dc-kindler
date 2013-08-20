@@ -1,0 +1,11 @@
+#!/bin/bash
+
+dir=dinosaur_comics
+
+./get-comics.py
+./make-epub.py $dir --comic_dir comics --comics_per_chapter 20
+cd comics
+../rotate-images
+cd ../$dir
+zip ../$dir.epub -r *
+cd ..

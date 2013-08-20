@@ -1,0 +1,16 @@
+body { 
+   padding: 0px; 
+   margin: 0px; 
+} 
+
+.comic { 
+   margin: 0px; 
+   border: 0px black solid; 
+   padding: 0px; 
+   page-break-inside: avoid;
+   page-break-after: always;
+} 
+
+.alt {
+   text-align: center;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Dinosaur Comics</dc:title>
+        <dc:rights>Public Domain</dc:rights>
+        <dc:creator opf:role="aut">Ryan North et al.</dc:creator>
+        <dc:publisher>Marek Kapolka</dc:publisher>
+        <dc:language>en-US</dc:language>
+        <dc:identifier id="BookID" opf:scheme="UUID">Hunky_Marek_Is_Da_Bombski</dc:identifier>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="stylesheet.css" href="Styles/stylesheet.css" media-type="text/css"/>
+    </manifest>
+    <spine toc="ncx">
+    </spine>
+</package>
